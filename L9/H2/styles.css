@@ -13,6 +13,7 @@
 .nav-item {
     list-style-type: none;
     line-height: 50%;
+    display: inline-block;
     float: left;
     margin-left: 16px;
     color: white;

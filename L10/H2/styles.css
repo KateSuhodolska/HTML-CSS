@@ -1,12 +1,16 @@
 body {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 header {
     display: flex;
     justify-content: center;
+}
+
+.articles-list {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .article {

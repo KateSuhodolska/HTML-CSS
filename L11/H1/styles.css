@@ -1,10 +1,17 @@
 .text {
     position: relative;
     margin: 16px;
+}
+
+.text:hover {
     text-decoration: underline 1px dotted black;
 }
 
 .tooltip {
+    display: none;
+}
+
+.text:hover .tooltip {
     display: block;
     position: absolute;
     background-color: grey;

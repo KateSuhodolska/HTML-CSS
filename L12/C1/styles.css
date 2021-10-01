@@ -22,6 +22,10 @@ p {
     text-decoration: underline;
 }
 
+.translate {
+    color: grey;
+}
+
 a {
     text-decoration: none;
 }

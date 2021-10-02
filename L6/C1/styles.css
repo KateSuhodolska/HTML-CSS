@@ -16,6 +16,10 @@ a[lang*='en'] {
 a[href*='www'] {
   color: green;
 }
+<<<<<<< HEAD
 [title*='popular'] {
+=======
+a[title*='popular'] {
+>>>>>>> 4c319bf9c5a9798906551e3c770ba1dcbc3ee32a
   font-size: 24px;
 }

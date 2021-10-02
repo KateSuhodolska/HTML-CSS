@@ -1,4 +1,5 @@
 .list {
+<<<<<<< HEAD
   list-style-type: none;
 }
 
@@ -17,3 +18,24 @@ li {
 .first {
   text-decoration: red overline;
 }
+=======
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.5em;
+}
+
+.third {
+    text-decoration-line: underline;
+    text-decoration-color: green;
+}
+
+.second {
+    text-decoration: line-through;
+}
+
+.first {
+    text-decoration: red overline;
+}
+>>>>>>> 4c319bf9c5a9798906551e3c770ba1dcbc3ee32a

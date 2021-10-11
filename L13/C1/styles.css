@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 
-div {
+.mountains {
+    padding: 32px;
     width: 300px;
     height: 500px;
     background-image: url(nature.jpeg);
@@ -12,5 +13,4 @@ div {
     font-weight: 700;
     color: #fff;
     text-align: center;
-    padding: 32px;
 }

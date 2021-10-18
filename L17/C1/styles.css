@@ -11,11 +11,11 @@ th,
 td {
     padding: 4px;
     text-align: right;
+    border-collapse: collapse;
 }
 
 table,
 td,
 th {
     border: 1px solid;
-    border-collapse: collapse;
 }

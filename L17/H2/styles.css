@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    margin: 16px;
+}
+
+table,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+}
+
+.letters>td {
+    border: none;
+}
+
+div {
+    border: 1px solid black;
+}
+
+.eight>td:nth-child(odd) {
+    background-color: black;
+}
+
+.seven>td:nth-child(even) {
+    background-color: black;
+}
+
+.six>td:nth-child(odd) {
+    background-color: black;
+}
+
+.five>td:nth-child(even) {
+    background-color: black;
+}
+
+.four>td:nth-child(odd) {
+    background-color: black;
+}
+
+.three>td:nth-child(even) {
+    background-color: black;
+}
+
+.two>td:nth-child(odd) {
+    background-color: black;
+}
+
+.one>td:nth-child(even) {
+    background-color: black;
+}
+
+.row>td:first-child,
+.row>td:last-child {
+    border: none;
+    background-color: white;
+}

@@ -14,8 +14,8 @@ td {
 }
 
 table,
-th,
-td {
+td,
+th {
     border: 1px solid;
     border-collapse: collapse;
 }

@@ -18,48 +18,20 @@ td {
     width: 50px;
 }
 
-.letters>td {
-    border: none;
-}
-
-div {
-    border: 1px solid black;
-}
-
-.eight>td:nth-child(odd) {
-    background-color: black;
-}
-
-.seven>td:nth-child(even) {
-    background-color: black;
-}
-
-.six>td:nth-child(odd) {
-    background-color: black;
-}
-
-.five>td:nth-child(even) {
-    background-color: black;
-}
-
-.four>td:nth-child(odd) {
-    background-color: black;
-}
-
-.three>td:nth-child(even) {
-    background-color: black;
-}
-
-.two>td:nth-child(odd) {
-    background-color: black;
-}
-
+.eight>td:nth-child(odd),
+.seven>td:nth-child(even),
+.six>td:nth-child(odd),
+.five>td:nth-child(even),
+.four>td:nth-child(odd),
+.three>td:nth-child(even),
+.two>td:nth-child(odd),
 .one>td:nth-child(even) {
     background-color: black;
 }
 
 .row>td:first-child,
-.row>td:last-child {
+.row>td:last-child,
+.letters>td {
     border: none;
     background-color: white;
 }

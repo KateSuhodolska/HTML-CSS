@@ -16,9 +16,7 @@
     font-size: 16px;
     text-transform: uppercase;
     opacity: 0;
-    animation: blinking 2s;
-    animation-iteration-count: infinite;
-    transition-timing-function: linear;
+    animation: blinking 2s infinite linear;
 }
 
 .circle {
@@ -29,9 +27,7 @@
     border: 4px solid lightgray;
     border-top: 4px solid black;
     margin-bottom: 8px;
-    animation: cycle 2s;
-    animation-iteration-count: infinite;
-    transition-timing-function: linear;
+    animation: cycle 2s infinite linear;
 }
 
 @keyframes blinking {

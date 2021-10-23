@@ -4,8 +4,8 @@
 
 .content {
     display: flex;
-    max-height: 100vh;
-    max-width: 100vw;
+    height: 100vh;
+    width: 100vw;
 }
 
 .gallery {
@@ -15,6 +15,7 @@
 }
 
 .ideas {
+    display: flex;
     width: 20%;
     background-color: #5af;
 }

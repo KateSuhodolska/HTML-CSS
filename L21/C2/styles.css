@@ -10,12 +10,16 @@
 
 .gallery {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80%;
     background-color: #fa5;
 }
 
 .ideas {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 20%;
     background-color: #5af;
 }

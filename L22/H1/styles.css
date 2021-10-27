@@ -27,14 +27,14 @@ i {
 }
 
 .navigation {
-    width: 20vw;
+    width: 20%;
     padding: 0.5em;
-    visibility: hidden;
 }
 
 .nav-list {
     list-style-type: none;
-    padding: none;
+    padding: 0;
+    visibility: hidden;
 }
 
 .nav-list-item {

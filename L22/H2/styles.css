@@ -1,0 +1,131 @@
+html {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(60deg, red, orange);
+}
+
+.main {
+    flex-grow: 1;
+    width: 100vw;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    flex-shrink: 0;
+    background-color: #e5e5e5;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.navigation {
+    width: 20%;
+    padding: 0.5em;
+    width: 100vw;
+}
+
+.section {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1.25em;
+}
+
+.news {
+    width: 100%;
+    padding: 0.5em;
+}
+
+.units-list {
+    line-height: 1.75em;
+}
+
+.css-units {
+    color: #8b0000;
+    background-color: #e5e5e5;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.section__header {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list-item {
+    background-color: #808080;
+    color: white;
+    line-height: 2em;
+    margin-bottom: 0.5em;
+}
+
+.nav-list-link {
+    color: white;
+    text-decoration: none;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 5px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 600px) {
+    .main-section {
+        display: flex;
+    }
+    .navigation {
+        width: 20%;
+    }
+    .section {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .main {
+        flex-direction: row;
+    }
+    .main-section {
+        width: 80vw;
+    }
+    .news {
+        width: 20vw;
+    }
+    .navigation {
+        width: 20vw;
+    }
+    .section {
+        width: 60vw;
+    }
+}

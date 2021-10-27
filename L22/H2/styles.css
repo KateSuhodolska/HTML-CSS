@@ -1,58 +1,82 @@
-html {
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    color: #555;
-}
-
-body {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    flex-direction: column;
-}
-
 * {
     box-sizing: border-box;
 }
 
-header {
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555;
+    font-size: 16px;
+}
+
+body {
     display: flex;
-    justify-content: center;
-    color: white;
-    background-image: linear-gradient(60deg, red, orange);
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(60deg, #ff0000, #ffa500);
 }
 
 .main {
-    flex-grow: 1;
-    width: 100vw;
-    /* align-items: center; */
     display: flex;
     flex-direction: column;
+    width: 100vw;
+    flex-grow: 1;
 }
 
 .footer {
+    text-align: center;
     flex-shrink: 0;
     background-color: #e5e5e5;
     padding: 0.5em;
-    text-align: center;
 }
 
 .navigation {
-    width: 20%;
     padding: 0.5em;
-    width: 100vw;
+    width: 100%;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-list-item {
+    background-color: #808080;
+    line-height: 2em;
+    margin-bottom: 0.5em;
+}
+
+.nav-list-link {
+    display: block;
+    width: 100%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .section {
-    width: 100%;
     padding: 0.5em;
+    width: 100%;
     font-size: 1.25em;
 }
 
+.section__header {
+    text-align: center;
+    font-size: 5vw;
+}
+
 .news {
-    width: 100%;
     padding: 0.5em;
+    width: 100%;
 }
 
 .units-list {
@@ -64,34 +88,6 @@ header {
     background-color: #e5e5e5;
     font-size: 1.125em;
     font-weight: 700;
-}
-
-.section__header {
-    font-size: 5vw;
-    text-align: center;
-}
-
-.nav-list {
-    list-style: none;
-    padding: 0;
-}
-
-.nav-list-item {
-    background-color: #808080;
-    color: white;
-    line-height: 2em;
-    margin-bottom: 0.5em;
-}
-
-.nav-list-link {
-    color: white;
-    text-decoration: none;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    display: block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 img {

@@ -1,0 +1,65 @@
+@import "layout.scss";
+* {
+    box-sizing: border-box;
+}
+
+div {
+    min-height: 200px;
+}
+
+.navigation {
+    background-color: #ff7f50;
+    display: flex;
+    flex-grow: 1;
+}
+
+.products-list {
+    background-color: #006400;
+    display: flex;
+    flex-grow: 1;
+}
+
+.news {
+    background-color: #0ff;
+    display: flex;
+    flex-grow: 1;
+}
+
+span {
+    text-transform: lowercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #faebd7;
+    margin: auto;
+}
+
+.content {
+    width: 100vw;
+}
+
+@include for-extra-small {
+    .products {
+        display: flex;
+    }
+    .navigation,
+    .products-list {
+        width: 50%;
+    }
+}
+
+@include for-medium-up {
+    .content {
+        display: flex;
+    }
+    .navigation,
+    .products-list {
+        width: 50%;
+    }
+    .products {
+        width: calc(100% / 3 * 2);
+    }
+    .news {
+        width: calc(100% / 3);
+    }
+}
